@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YQCooWebView'
-  s.version          = '0.0.5'
+  s.version          = '0.0.6'
   s.summary          = 'A short description of YQCooWebView.'
 
 # This description is used to generate tags and improve search results.
@@ -30,10 +30,10 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'YQCooWebView/YQCooWebView/Classes/**/*'
+  s.source_files = 'YQCooWebView/Classes/**/*'
   
   s.resource_bundles = {
-     'YQCooWebView' => ['YQCooWebView/YQCooWebView/Assets/*.png']
+     'YQCooWebView' => ['YQCooWebView/Assets/*.png']
    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
