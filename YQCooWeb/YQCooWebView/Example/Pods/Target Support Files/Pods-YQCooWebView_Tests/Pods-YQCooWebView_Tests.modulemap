@@ -1,0 +1,6 @@
+framework module Pods_YQCooWebView_Tests {
+  umbrella header "Pods-YQCooWebView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

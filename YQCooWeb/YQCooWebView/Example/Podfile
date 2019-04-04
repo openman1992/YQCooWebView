@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'YQCooWebView_Example' do
+  pod 'YQCooWebView', :path => '../'
+
+  target 'YQCooWebView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

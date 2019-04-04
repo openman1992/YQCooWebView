@@ -1,0 +1,6 @@
+framework module YQCooWebView {
+  umbrella header "YQCooWebView-umbrella.h"
+
+  export *
+  module * { export * }
+}
