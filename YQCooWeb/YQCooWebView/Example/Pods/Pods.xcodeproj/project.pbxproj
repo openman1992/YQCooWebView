@@ -7,83 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		142A7809FCFEFDF34FE38272863EE5A8 /* YQCooWebView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDA59E7074D6DB9B830A8F25B0222C0 /* YQCooWebView-dummy.m */; };
-		344192367EE1E702888CD1E67D981A8F /* YQCooWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 22564C6A83E747C7A3AEC7E8B2C58075 /* YQCooWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3BD00FB19AFA940F66DA9DEAF48F1FB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		679E8C7FC4DD6380707937187A849372 /* YQCooWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8953D7585B6B06791284C8A8AF968890 /* YQCooWebViewController.m */; };
-		6971A839C45E79F6D9F224EDBC2F5212 /* YQCooWebView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8A54B62A2F59C3E242D3E6235955ADE6 /* YQCooWebView.bundle */; };
-		81258C36085B870D04B290F0FBEB25BC /* YQCooWebView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E96B8B0EEB2AD5D140341B9E03550F9 /* YQCooWebView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		807B27A634D744AB93ABE25A86F540E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		8C2277E9A8F47253DFBA9194447384BE /* Pods-YQCooWebView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDAFEC85988B200F4F1CB0D58EBADF1 /* Pods-YQCooWebView_Tests-dummy.m */; };
 		9627E24254D5C289FDF88F37906F4D1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		A035099E91D48544D2EAD69100C0C052 /* Pods-YQCooWebView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0C07BD35682BDFEF5924F3BBDEF86CC /* Pods-YQCooWebView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A491366B6E01CD95CAE10D15E17B8863 /* Pods-YQCooWebView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7E25A7DB299DEC2BE8188692148A6A4 /* Pods-YQCooWebView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A809A5BB62C1F324789EED6B4DAAFE46 /* Pods-YQCooWebView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9D57584C2E6623C2247BDCD8A42035 /* Pods-YQCooWebView_Example-dummy.m */; };
-		EEA8C9A305BB13F1B9ABD0B106042104 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		CB361ACF9401A338EC3CC3866DBF2222 /* Pods-YQCooWebView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7E25A7DB299DEC2BE8188692148A6A4 /* Pods-YQCooWebView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE11A69775EF17EFC62E34957B2D7F9E /* Pods-YQCooWebView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9D57584C2E6623C2247BDCD8A42035 /* Pods-YQCooWebView_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		13B7B67EC891BD84A0C8759A14A74AF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 052D26B0B3D4D839FE5FA6B744262479;
+			remoteInfo = "YQCooWebView-YQCooWebView";
+		};
 		C8EB2B2A08878450F787D6741720654C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 856B6B7DA047E1FDC4588CF8C0281AFA;
+			remoteGlobalIDString = ACB6979B08BD96380DF129C504483A8F;
 			remoteInfo = "Pods-YQCooWebView_Example";
-		};
-		DB19D366A035DE243A9F057DB45BBEC4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 01B315A110009031A951C8AF420AA3D4;
-			remoteInfo = YQCooWebView;
-		};
-		E64BC3EDD91B4E9380DAEA1E3955A390 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4BF35D291813C930C7698386B12DAC47;
-			remoteInfo = "YQCooWebView-YQCooWebView";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		095A00FF6CECD561B981F805D755DA91 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		0BDAFEC85988B200F4F1CB0D58EBADF1 /* Pods-YQCooWebView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YQCooWebView_Tests-dummy.m"; sourceTree = "<group>"; };
+		0C7316A60F529A1EFCB716EA55FD1EB2 /* YQCooWebView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YQCooWebView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0DD129DFEB466A270CA0896E89A27CFE /* Pods-YQCooWebView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YQCooWebView_Example.modulemap"; sourceTree = "<group>"; };
 		0F45EF471F8E750B83A98D4EA01C3585 /* Pods-YQCooWebView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQCooWebView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		106AD8FC23CDBC398D9CDC69875D15B9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		12AFA5AE95E168EEAAFF00ED73558990 /* YQCooWebView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YQCooWebView-prefix.pch"; sourceTree = "<group>"; };
-		161BE5DEC08F201A6C3539099D093A7E /* ResourceBundle-YQCooWebView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-YQCooWebView-Info.plist"; sourceTree = "<group>"; };
-		1A8AEA12E68B9E99913737BA2F30A385 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		22564C6A83E747C7A3AEC7E8B2C58075 /* YQCooWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YQCooWebViewController.h; path = YQCooWebView/Classes/YQCooWeb/YQCooWebViewController.h; sourceTree = "<group>"; };
-		22CDB08927BF68B093184BD49EA65120 /* YQCooWebView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YQCooWebView.modulemap; sourceTree = "<group>"; };
+		1B4F61FCB60C9B5ED8F4CDF23FE44A56 /* YQCooWebView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = YQCooWebView.bundle; path = "YQCooWebView-YQCooWebView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25891FD0E838516BE2D177A5CA4E37CC /* Pods-YQCooWebView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YQCooWebView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		26C0D5F5E5DB8ED0FCE12D9BD5C0BE68 /* Pods-YQCooWebView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YQCooWebView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		296321926F8890C473BAD0AFE3B06A7E /* Pods-YQCooWebView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YQCooWebView_Tests.modulemap"; sourceTree = "<group>"; };
 		2F9D57584C2E6623C2247BDCD8A42035 /* Pods-YQCooWebView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YQCooWebView_Example-dummy.m"; sourceTree = "<group>"; };
-		316040BEB9CA1E4ACAD345ADFD6C641D /* YQCooWebView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YQCooWebView.framework; path = YQCooWebView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E96B8B0EEB2AD5D140341B9E03550F9 /* YQCooWebView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YQCooWebView-umbrella.h"; sourceTree = "<group>"; };
+		4BE78002E9B38C74A064B10DCCF43C10 /* Pods_YQCooWebView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YQCooWebView_Tests.framework; path = "Pods-YQCooWebView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53B7B88DDDEBA46A19984BB6CD08EEBD /* Pods-YQCooWebView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQCooWebView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		542AF100AB0AE5FA6A86917D8F105F2E /* Pods-YQCooWebView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YQCooWebView_Example-resources.sh"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		64C189CA377594D677C3525BB74D1180 /* Pods-YQCooWebView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQCooWebView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7308E6E8036B9ED9C4B997B7823E8D1A /* Pods_YQCooWebView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YQCooWebView_Tests.framework; path = "Pods-YQCooWebView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8953D7585B6B06791284C8A8AF968890 /* YQCooWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YQCooWebViewController.m; path = YQCooWebView/Classes/YQCooWeb/YQCooWebViewController.m; sourceTree = "<group>"; };
-		8A54B62A2F59C3E242D3E6235955ADE6 /* YQCooWebView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = YQCooWebView.bundle; path = "YQCooWebView-YQCooWebView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F31170B41B3E51727D5D5D88B9ACDC7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		93829A9495EB47F8FAD19C8DD2DE6D89 /* Pods-YQCooWebView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQCooWebView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		97CFDAEEB524597D183A833C37F9DA8B /* Pods-YQCooWebView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YQCooWebView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9E0110B77E9D790C2735BB36C8990FB2 /* Pods-YQCooWebView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YQCooWebView_Tests-resources.sh"; sourceTree = "<group>"; };
 		A0C07BD35682BDFEF5924F3BBDEF86CC /* Pods-YQCooWebView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YQCooWebView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		A0C8EC19D665CE49DC60BF40124B5B48 /* Pods-YQCooWebView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YQCooWebView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AE9207C1507A7D52A5EC985D6C101A07 /* YQCooWebView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YQCooWebView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BF3D37354DF0FA784B289C7B9F468914 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		CEDA59E7074D6DB9B830A8F25B0222C0 /* YQCooWebView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YQCooWebView-dummy.m"; sourceTree = "<group>"; };
-		D7E6C56962BE848E1A122B0E70650AE6 /* YQCooWebView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YQCooWebView.xcconfig; sourceTree = "<group>"; };
+		B1FB405C998A99ABF30104DE6A7BD474 /* ResourceBundle-YQCooWebView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-YQCooWebView-Info.plist"; sourceTree = "<group>"; };
 		D84CD372BF185D2B091D7AD38E241EE9 /* Pods-YQCooWebView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YQCooWebView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		DEC4A521CE090F2771A9D19D3CDD69A6 /* Pods_YQCooWebView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YQCooWebView_Example.framework; path = "Pods-YQCooWebView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7E25A7DB299DEC2BE8188692148A6A4 /* Pods-YQCooWebView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YQCooWebView_Example-umbrella.h"; sourceTree = "<group>"; };
+		ED7C8BA32AFE040E6268CA3C1FE318DC /* Pods_YQCooWebView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YQCooWebView_Example.framework; path = "Pods-YQCooWebView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF3D1CBBE6A72B11E0E252B806637601 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF54EDCCD61BAB10F7972BDB8BDE93AF /* Pods-YQCooWebView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YQCooWebView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F8B1ECCC20D7F360356C331BC7929E27 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,38 +73,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		58ACA94D1B5A57FCE6E02AF36A655199 /* Frameworks */ = {
+		1BFED2966CE2D5D85EEE77DBEE4E597E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				807B27A634D744AB93ABE25A86F540E8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		64D5257BE55DF23B8697EFFB8F44765E /* Frameworks */ = {
+		8FA8DC865CBA3C5AAFE35392BDF1E760 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEA8C9A305BB13F1B9ABD0B106042104 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C5411CC528BEC638D99EA47B02EAA8ED /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3BD00FB19AFA940F66DA9DEAF48F1FB3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		195D1089FCA788DCC34B71E49818EDB8 /* Development Pods */ = {
+		146047EF507BDA50A332EA06034385BA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E4A6D87A2B9817A42702AC1F5C820DC6 /* YQCooWebView */,
+				ED7C8BA32AFE040E6268CA3C1FE318DC /* Pods_YQCooWebView_Example.framework */,
+				4BE78002E9B38C74A064B10DCCF43C10 /* Pods_YQCooWebView_Tests.framework */,
+				1B4F61FCB60C9B5ED8F4CDF23FE44A56 /* YQCooWebView.bundle */,
 			);
-			name = "Development Pods";
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F8255758255846EE830A2BB7E321790 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F8B1ECCC20D7F360356C331BC7929E27 /* LICENSE */,
+				6F31170B41B3E51727D5D5D88B9ACDC7 /* README.md */,
+				0C7316A60F529A1EFCB716EA55FD1EB2 /* YQCooWebView.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		3C9E23F0E61ED7714F4D1E87F43F9E10 /* Pods-YQCooWebView_Tests */ = {
@@ -147,6 +129,33 @@
 			path = "Target Support Files/Pods-YQCooWebView_Tests";
 			sourceTree = "<group>";
 		};
+		42B793F2922EDDFAA6EA6A0A49046BD5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1FB405C998A99ABF30104DE6A7BD474 /* ResourceBundle-YQCooWebView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YQCooWebView";
+			sourceTree = "<group>";
+		};
+		5242B1F7F8F6DCC7ECA155DE180DC907 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53DF439F7EE2AEED6165A7A1AC5C3882 /* YQCooWebView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		53DF439F7EE2AEED6165A7A1AC5C3882 /* YQCooWebView */ = {
+			isa = PBXGroup;
+			children = (
+				1F8255758255846EE830A2BB7E321790 /* Pod */,
+				42B793F2922EDDFAA6EA6A0A49046BD5 /* Support Files */,
+			);
+			name = YQCooWebView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,51 +164,15 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6FBE6A2C26526DB0AA99F1F5D896F9EA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1A8AEA12E68B9E99913737BA2F30A385 /* Info.plist */,
-				161BE5DEC08F201A6C3539099D093A7E /* ResourceBundle-YQCooWebView-Info.plist */,
-				22CDB08927BF68B093184BD49EA65120 /* YQCooWebView.modulemap */,
-				D7E6C56962BE848E1A122B0E70650AE6 /* YQCooWebView.xcconfig */,
-				CEDA59E7074D6DB9B830A8F25B0222C0 /* YQCooWebView-dummy.m */,
-				12AFA5AE95E168EEAAFF00ED73558990 /* YQCooWebView-prefix.pch */,
-				3E96B8B0EEB2AD5D140341B9E03550F9 /* YQCooWebView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YQCooWebView";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				195D1089FCA788DCC34B71E49818EDB8 /* Development Pods */,
+				5242B1F7F8F6DCC7ECA155DE180DC907 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				9C9A3274AABFB17F6B9E192CC35AF753 /* Products */,
+				146047EF507BDA50A332EA06034385BA /* Products */,
 				ECE584FDAD4B010B0735529E161CB449 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		98C2ABD0C49FB4D68D204317058FB93D /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				BF3D37354DF0FA784B289C7B9F468914 /* LICENSE */,
-				095A00FF6CECD561B981F805D755DA91 /* README.md */,
-				AE9207C1507A7D52A5EC985D6C101A07 /* YQCooWebView.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		9C9A3274AABFB17F6B9E192CC35AF753 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DEC4A521CE090F2771A9D19D3CDD69A6 /* Pods_YQCooWebView_Example.framework */,
-				7308E6E8036B9ED9C4B997B7823E8D1A /* Pods_YQCooWebView_Tests.framework */,
-				8A54B62A2F59C3E242D3E6235955ADE6 /* YQCooWebView.bundle */,
-				316040BEB9CA1E4ACAD345ADFD6C641D /* YQCooWebView.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -228,18 +201,6 @@
 			path = "Target Support Files/Pods-YQCooWebView_Example";
 			sourceTree = "<group>";
 		};
-		E4A6D87A2B9817A42702AC1F5C820DC6 /* YQCooWebView */ = {
-			isa = PBXGroup;
-			children = (
-				22564C6A83E747C7A3AEC7E8B2C58075 /* YQCooWebViewController.h */,
-				8953D7585B6B06791284C8A8AF968890 /* YQCooWebViewController.m */,
-				98C2ABD0C49FB4D68D204317058FB93D /* Pod */,
-				6FBE6A2C26526DB0AA99F1F5D896F9EA /* Support Files */,
-			);
-			name = YQCooWebView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		ECE584FDAD4B010B0735529E161CB449 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -252,20 +213,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0040EF5597ACA3E60F77E8AFE5845635 /* Headers */ = {
+		7A5E6D5E6833B9B1FF82E2B794D88543 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A491366B6E01CD95CAE10D15E17B8863 /* Pods-YQCooWebView_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DAF1BE74AAA2AAC53E9F0FD89B2E6EC8 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				81258C36085B870D04B290F0FBEB25BC /* YQCooWebView-umbrella.h in Headers */,
-				344192367EE1E702888CD1E67D981A8F /* YQCooWebViewController.h in Headers */,
+				CB361ACF9401A338EC3CC3866DBF2222 /* Pods-YQCooWebView_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,32 +232,13 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		01B315A110009031A951C8AF420AA3D4 /* YQCooWebView */ = {
+		052D26B0B3D4D839FE5FA6B744262479 /* YQCooWebView-YQCooWebView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 67DFAD8F271C03FC31224AA90EDD8F65 /* Build configuration list for PBXNativeTarget "YQCooWebView" */;
+			buildConfigurationList = 331FFE9F29D02556932052AA4021E831 /* Build configuration list for PBXNativeTarget "YQCooWebView-YQCooWebView" */;
 			buildPhases = (
-				662CA1B22E06122D86C499DD6138977D /* Sources */,
-				64D5257BE55DF23B8697EFFB8F44765E /* Frameworks */,
-				66344FE6E8EE9BB8936215E7E80E2DC2 /* Resources */,
-				DAF1BE74AAA2AAC53E9F0FD89B2E6EC8 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7C9D04FB4AF0F665525BD63E462A63EA /* PBXTargetDependency */,
-			);
-			name = YQCooWebView;
-			productName = YQCooWebView;
-			productReference = 316040BEB9CA1E4ACAD345ADFD6C641D /* YQCooWebView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		4BF35D291813C930C7698386B12DAC47 /* YQCooWebView-YQCooWebView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7C872A0E7E95B4F8E46936EA3F491958 /* Build configuration list for PBXNativeTarget "YQCooWebView-YQCooWebView" */;
-			buildPhases = (
-				D0FB4D15C7FFA1BF54A58745FEDF5D42 /* Sources */,
-				58ACA94D1B5A57FCE6E02AF36A655199 /* Frameworks */,
-				CE6F9A6E9A515CC30FEC7C7A92712D67 /* Resources */,
+				3D084C70E52FBD03A12D0734B547DC1C /* Sources */,
+				8FA8DC865CBA3C5AAFE35392BDF1E760 /* Frameworks */,
+				490FE077F12BEE4AA61A8E04468F9A40 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -313,7 +246,7 @@
 			);
 			name = "YQCooWebView-YQCooWebView";
 			productName = "YQCooWebView-YQCooWebView";
-			productReference = 8A54B62A2F59C3E242D3E6235955ADE6 /* YQCooWebView.bundle */;
+			productReference = 1B4F61FCB60C9B5ED8F4CDF23FE44A56 /* YQCooWebView.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		61E63CAC5099115B993360BEE31A21F4 /* Pods-YQCooWebView_Tests */ = {
@@ -331,25 +264,25 @@
 			);
 			name = "Pods-YQCooWebView_Tests";
 			productName = "Pods-YQCooWebView_Tests";
-			productReference = 7308E6E8036B9ED9C4B997B7823E8D1A /* Pods_YQCooWebView_Tests.framework */;
+			productReference = 4BE78002E9B38C74A064B10DCCF43C10 /* Pods_YQCooWebView_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		856B6B7DA047E1FDC4588CF8C0281AFA /* Pods-YQCooWebView_Example */ = {
+		ACB6979B08BD96380DF129C504483A8F /* Pods-YQCooWebView_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C66D8115E1E72E7AFD0971420C91D885 /* Build configuration list for PBXNativeTarget "Pods-YQCooWebView_Example" */;
+			buildConfigurationList = AFDB6043FD66AC87447A1C61FBD45DA4 /* Build configuration list for PBXNativeTarget "Pods-YQCooWebView_Example" */;
 			buildPhases = (
-				15979F1C4B9DD514B428582D075E2F88 /* Sources */,
-				C5411CC528BEC638D99EA47B02EAA8ED /* Frameworks */,
-				0040EF5597ACA3E60F77E8AFE5845635 /* Headers */,
+				51CE51E88A97FDE45BC790456C52371A /* Sources */,
+				1BFED2966CE2D5D85EEE77DBEE4E597E /* Frameworks */,
+				7A5E6D5E6833B9B1FF82E2B794D88543 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				398DCD559A5F92A5FDA1036DB0BC183B /* PBXTargetDependency */,
+				35243549FE8A7ED2A9A909B0F86ACFC9 /* PBXTargetDependency */,
 			);
 			name = "Pods-YQCooWebView_Example";
 			productName = "Pods-YQCooWebView_Example";
-			productReference = DEC4A521CE090F2771A9D19D3CDD69A6 /* Pods_YQCooWebView_Example.framework */;
+			productReference = ED7C8BA32AFE040E6268CA3C1FE318DC /* Pods_YQCooWebView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -369,28 +302,19 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 9C9A3274AABFB17F6B9E192CC35AF753 /* Products */;
+			productRefGroup = 146047EF507BDA50A332EA06034385BA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				856B6B7DA047E1FDC4588CF8C0281AFA /* Pods-YQCooWebView_Example */,
+				ACB6979B08BD96380DF129C504483A8F /* Pods-YQCooWebView_Example */,
 				61E63CAC5099115B993360BEE31A21F4 /* Pods-YQCooWebView_Tests */,
-				01B315A110009031A951C8AF420AA3D4 /* YQCooWebView */,
-				4BF35D291813C930C7698386B12DAC47 /* YQCooWebView-YQCooWebView */,
+				052D26B0B3D4D839FE5FA6B744262479 /* YQCooWebView-YQCooWebView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		66344FE6E8EE9BB8936215E7E80E2DC2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6971A839C45E79F6D9F224EDBC2F5212 /* YQCooWebView.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CE6F9A6E9A515CC30FEC7C7A92712D67 /* Resources */ = {
+		490FE077F12BEE4AA61A8E04468F9A40 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -400,14 +324,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		15979F1C4B9DD514B428582D075E2F88 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A809A5BB62C1F324789EED6B4DAAFE46 /* Pods-YQCooWebView_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		33C410FBFA8AE0CACBDE8A144D2631FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -416,77 +332,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		662CA1B22E06122D86C499DD6138977D /* Sources */ = {
+		3D084C70E52FBD03A12D0734B547DC1C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				142A7809FCFEFDF34FE38272863EE5A8 /* YQCooWebView-dummy.m in Sources */,
-				679E8C7FC4DD6380707937187A849372 /* YQCooWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D0FB4D15C7FFA1BF54A58745FEDF5D42 /* Sources */ = {
+		51CE51E88A97FDE45BC790456C52371A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE11A69775EF17EFC62E34957B2D7F9E /* Pods-YQCooWebView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		398DCD559A5F92A5FDA1036DB0BC183B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YQCooWebView;
-			target = 01B315A110009031A951C8AF420AA3D4 /* YQCooWebView */;
-			targetProxy = DB19D366A035DE243A9F057DB45BBEC4 /* PBXContainerItemProxy */;
-		};
-		7C9D04FB4AF0F665525BD63E462A63EA /* PBXTargetDependency */ = {
+		35243549FE8A7ED2A9A909B0F86ACFC9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "YQCooWebView-YQCooWebView";
-			target = 4BF35D291813C930C7698386B12DAC47 /* YQCooWebView-YQCooWebView */;
-			targetProxy = E64BC3EDD91B4E9380DAEA1E3955A390 /* PBXContainerItemProxy */;
+			target = 052D26B0B3D4D839FE5FA6B744262479 /* YQCooWebView-YQCooWebView */;
+			targetProxy = 13B7B67EC891BD84A0C8759A14A74AF5 /* PBXContainerItemProxy */;
 		};
 		B141F6D9F10D6336409A31308755289E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-YQCooWebView_Example";
-			target = 856B6B7DA047E1FDC4588CF8C0281AFA /* Pods-YQCooWebView_Example */;
+			target = ACB6979B08BD96380DF129C504483A8F /* Pods-YQCooWebView_Example */;
 			targetProxy = C8EB2B2A08878450F787D6741720654C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1A186A92A4DD4AA6F28DA2E050B01CE6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7E6C56962BE848E1A122B0E70650AE6 /* YQCooWebView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YQCooWebView/YQCooWebView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YQCooWebView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YQCooWebView/YQCooWebView.modulemap";
-				PRODUCT_MODULE_NAME = YQCooWebView;
-				PRODUCT_NAME = YQCooWebView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -550,7 +428,22 @@
 			};
 			name = Debug;
 		};
-		2E9D29ABCA5E755B499B83DEB15224BB /* Debug */ = {
+		3508F238DD8CA6A6955AC40197C49038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YQCooWebView";
+				INFOPLIST_FILE = "Target Support Files/YQCooWebView/ResourceBundle-YQCooWebView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = YQCooWebView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		500181ACD7241C850B45E2455867AEBF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 64C189CA377594D677C3525BB74D1180 /* Pods-YQCooWebView_Example.debug.xcconfig */;
 			buildSettings = {
@@ -583,9 +476,8 @@
 			};
 			name = Debug;
 		};
-		A59F880C96B6EE2F30553F888B966E63 /* Debug */ = {
+		881FC14454599CB8F5D3FE4331234432 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7E6C56962BE848E1A122B0E70650AE6 /* YQCooWebView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YQCooWebView";
@@ -597,12 +489,13 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
-		AE01AB9446E24D0363AE03C8324F9960 /* Debug */ = {
+		91C9F76880CAC8DE49DF3A1B51BD81F4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7E6C56962BE848E1A122B0E70650AE6 /* YQCooWebView.xcconfig */;
+			baseConfigurationReference = 0F45EF471F8E750B83A98D4EA01C3585 /* Pods-YQCooWebView_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -612,22 +505,25 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YQCooWebView/YQCooWebView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YQCooWebView/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-YQCooWebView_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YQCooWebView/YQCooWebView.modulemap";
-				PRODUCT_MODULE_NAME = YQCooWebView;
-				PRODUCT_NAME = YQCooWebView;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YQCooWebView_Example/Pods-YQCooWebView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		AFFF1789DE91973595BD7448F72F1132 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -696,40 +592,6 @@
 			};
 			name = Debug;
 		};
-		EB474934580BA1E3F639968A389E008B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F45EF471F8E750B83A98D4EA01C3585 /* Pods-YQCooWebView_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-YQCooWebView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YQCooWebView_Example/Pods-YQCooWebView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -788,22 +650,6 @@
 			};
 			name = Release;
 		};
-		FFE3C17ADB953B58E9829270AE7489D5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7E6C56962BE848E1A122B0E70650AE6 /* YQCooWebView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YQCooWebView";
-				INFOPLIST_FILE = "Target Support Files/YQCooWebView/ResourceBundle-YQCooWebView-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = YQCooWebView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -816,20 +662,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		67DFAD8F271C03FC31224AA90EDD8F65 /* Build configuration list for PBXNativeTarget "YQCooWebView" */ = {
+		331FFE9F29D02556932052AA4021E831 /* Build configuration list for PBXNativeTarget "YQCooWebView-YQCooWebView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AE01AB9446E24D0363AE03C8324F9960 /* Debug */,
-				1A186A92A4DD4AA6F28DA2E050B01CE6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7C872A0E7E95B4F8E46936EA3F491958 /* Build configuration list for PBXNativeTarget "YQCooWebView-YQCooWebView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A59F880C96B6EE2F30553F888B966E63 /* Debug */,
-				FFE3C17ADB953B58E9829270AE7489D5 /* Release */,
+				3508F238DD8CA6A6955AC40197C49038 /* Debug */,
+				881FC14454599CB8F5D3FE4331234432 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -843,11 +680,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C66D8115E1E72E7AFD0971420C91D885 /* Build configuration list for PBXNativeTarget "Pods-YQCooWebView_Example" */ = {
+		AFDB6043FD66AC87447A1C61FBD45DA4 /* Build configuration list for PBXNativeTarget "Pods-YQCooWebView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2E9D29ABCA5E755B499B83DEB15224BB /* Debug */,
-				EB474934580BA1E3F639968A389E008B /* Release */,
+				500181ACD7241C850B45E2455867AEBF /* Debug */,
+				91C9F76880CAC8DE49DF3A1B51BD81F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
