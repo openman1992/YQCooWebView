@@ -7,23 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		12F29BFE22B6AF6903F861A3DC74568F /* canGoForwardSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBE64F125756D98319568C2E3B3122B0 /* canGoForwardSelected@2x.png */; };
-		142A7809FCFEFDF34FE38272863EE5A8 /* YQCooWebView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A44F0D068C8EDF4004E740FD0930B1 /* YQCooWebView-dummy.m */; };
-		344192367EE1E702888CD1E67D981A8F /* YQCooWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B25B15FFEC67210383411B20FAB8D522 /* YQCooWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		142A7809FCFEFDF34FE38272863EE5A8 /* YQCooWebView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA3ED9831E71650ED62D83A4AA1E896 /* YQCooWebView-dummy.m */; };
+		2DAF283528BD02AE0006DF6CC106B67A /* YQCooWebView.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9921670C102A443A90718E6EEFF07D4A /* YQCooWebView.xcassets */; };
+		344192367EE1E702888CD1E67D981A8F /* YQCooWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D46769AFA78B162AF7FE9A91C82BD8D1 /* YQCooWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3BD00FB19AFA940F66DA9DEAF48F1FB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		526BD54148A6498D9E9ABFD78D4B4F3D /* goMenu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0CEC58AD08FB000E8A92C503756FC37 /* goMenu@2x.png */; };
-		679E8C7FC4DD6380707937187A849372 /* YQCooWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22990DDF5DFCC437715F99D7526216AA /* YQCooWebViewController.m */; };
-		695F83C0FBD56348C57715161FC99231 /* canGoBackSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5E73C5CBB8DE77121238E8AFEA653F /* canGoBackSelected@2x.png */; };
+		679E8C7FC4DD6380707937187A849372 /* YQCooWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 480C3FFFA9082A0EA14E6DECF399807B /* YQCooWebViewController.m */; };
 		6971A839C45E79F6D9F224EDBC2F5212 /* YQCooWebView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8A54B62A2F59C3E242D3E6235955ADE6 /* YQCooWebView.bundle */; };
-		78118C11D7CBAF71ED469DC26AF18A68 /* refreshWeb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15FA6DA4761A2058AF98C3825608F3DF /* refreshWeb@2x.png */; };
-		81258C36085B870D04B290F0FBEB25BC /* YQCooWebView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0ECADCDD13DFBECC48C3BCD4E0A0B90 /* YQCooWebView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81258C36085B870D04B290F0FBEB25BC /* YQCooWebView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7FFE2CF08A158FBD6DBE12927E6145D /* YQCooWebView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C2277E9A8F47253DFBA9194447384BE /* Pods-YQCooWebView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDAFEC85988B200F4F1CB0D58EBADF1 /* Pods-YQCooWebView_Tests-dummy.m */; };
 		9627E24254D5C289FDF88F37906F4D1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		A035099E91D48544D2EAD69100C0C052 /* Pods-YQCooWebView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0C07BD35682BDFEF5924F3BBDEF86CC /* Pods-YQCooWebView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A491366B6E01CD95CAE10D15E17B8863 /* Pods-YQCooWebView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7E25A7DB299DEC2BE8188692148A6A4 /* Pods-YQCooWebView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A809A5BB62C1F324789EED6B4DAAFE46 /* Pods-YQCooWebView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9D57584C2E6623C2247BDCD8A42035 /* Pods-YQCooWebView_Example-dummy.m */; };
-		ADE91778F58D529B0633683C1E2A6119 /* canGoBackNormal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 20E7AECA7EFDB260E0D8707548FB82AF /* canGoBackNormal@2x.png */; };
-		EB3A86C367FB2FB8C9204ED027410B71 /* canGoForwardNormal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E50A356ACE3260337984D3482CE71619 /* canGoForwardNormal@2x.png */; };
 		EEA8C9A305BB13F1B9ABD0B106042104 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,50 +47,45 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		094DA4314EC9DDBB4D8ED28E6ACF33BF /* YQCooWebView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YQCooWebView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0BDAFEC85988B200F4F1CB0D58EBADF1 /* Pods-YQCooWebView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YQCooWebView_Tests-dummy.m"; sourceTree = "<group>"; };
 		0DD129DFEB466A270CA0896E89A27CFE /* Pods-YQCooWebView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YQCooWebView_Example.modulemap"; sourceTree = "<group>"; };
 		0F45EF471F8E750B83A98D4EA01C3585 /* Pods-YQCooWebView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQCooWebView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		106AD8FC23CDBC398D9CDC69875D15B9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		15FA6DA4761A2058AF98C3825608F3DF /* refreshWeb@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "refreshWeb@2x.png"; path = "YQCooWebView/Assets/refreshWeb@2x.png"; sourceTree = "<group>"; };
-		20E7AECA7EFDB260E0D8707548FB82AF /* canGoBackNormal@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "canGoBackNormal@2x.png"; path = "YQCooWebView/Assets/canGoBackNormal@2x.png"; sourceTree = "<group>"; };
-		22990DDF5DFCC437715F99D7526216AA /* YQCooWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YQCooWebViewController.m; path = YQCooWebView/Classes/YQCooWeb/YQCooWebViewController.m; sourceTree = "<group>"; };
+		1CA3ED9831E71650ED62D83A4AA1E896 /* YQCooWebView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YQCooWebView-dummy.m"; sourceTree = "<group>"; };
 		25891FD0E838516BE2D177A5CA4E37CC /* Pods-YQCooWebView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YQCooWebView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		26C0D5F5E5DB8ED0FCE12D9BD5C0BE68 /* Pods-YQCooWebView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YQCooWebView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		290648694343A90CF4D97449298F8EBA /* YQCooWebView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YQCooWebView.xcconfig; sourceTree = "<group>"; };
+		27BD6F00FC35AF0CCBB5EC2D8761D5A6 /* ResourceBundle-YQCooWebView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-YQCooWebView-Info.plist"; sourceTree = "<group>"; };
 		296321926F8890C473BAD0AFE3B06A7E /* Pods-YQCooWebView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YQCooWebView_Tests.modulemap"; sourceTree = "<group>"; };
 		2F9D57584C2E6623C2247BDCD8A42035 /* Pods-YQCooWebView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YQCooWebView_Example-dummy.m"; sourceTree = "<group>"; };
 		316040BEB9CA1E4ACAD345ADFD6C641D /* YQCooWebView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YQCooWebView.framework; path = YQCooWebView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C4525175D1C84686C05C28E6A011115 /* YQCooWebView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YQCooWebView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		480C3FFFA9082A0EA14E6DECF399807B /* YQCooWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YQCooWebViewController.m; path = YQCooWebView/Classes/YQCooWeb/YQCooWebViewController.m; sourceTree = "<group>"; };
 		53B7B88DDDEBA46A19984BB6CD08EEBD /* Pods-YQCooWebView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQCooWebView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		542AF100AB0AE5FA6A86917D8F105F2E /* Pods-YQCooWebView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YQCooWebView_Example-resources.sh"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6452B3D6AEF8B77F7A9A3E3B5DC11967 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		64C189CA377594D677C3525BB74D1180 /* Pods-YQCooWebView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQCooWebView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		67C2FFD3EA93CDEC261D186D216EE79A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		7308E6E8036B9ED9C4B997B7823E8D1A /* Pods_YQCooWebView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YQCooWebView_Tests.framework; path = "Pods-YQCooWebView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7403589586C10EFFCB8090782BF07A98 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		7980A7EB5F1F73F65A4160A139A61570 /* ResourceBundle-YQCooWebView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-YQCooWebView-Info.plist"; sourceTree = "<group>"; };
+		83D529C747738F3AE1BCCA98A6643737 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88C6E1CF0C0E6646ED72A08D024559D5 /* YQCooWebView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YQCooWebView.modulemap; sourceTree = "<group>"; };
 		8A54B62A2F59C3E242D3E6235955ADE6 /* YQCooWebView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = YQCooWebView.bundle; path = "YQCooWebView-YQCooWebView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		90A44F0D068C8EDF4004E740FD0930B1 /* YQCooWebView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YQCooWebView-dummy.m"; sourceTree = "<group>"; };
 		93829A9495EB47F8FAD19C8DD2DE6D89 /* Pods-YQCooWebView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQCooWebView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		97CFDAEEB524597D183A833C37F9DA8B /* Pods-YQCooWebView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YQCooWebView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9994D51C06749403730E290DD309AD13 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9921670C102A443A90718E6EEFF07D4A /* YQCooWebView.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = YQCooWebView.xcassets; path = YQCooWebView/Assets/YQCooWebView.xcassets; sourceTree = "<group>"; };
+		9D40D737675AC167032AE4EAB0F72250 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		9E0110B77E9D790C2735BB36C8990FB2 /* Pods-YQCooWebView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YQCooWebView_Tests-resources.sh"; sourceTree = "<group>"; };
 		A0C07BD35682BDFEF5924F3BBDEF86CC /* Pods-YQCooWebView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YQCooWebView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		A0C8EC19D665CE49DC60BF40124B5B48 /* Pods-YQCooWebView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YQCooWebView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A0ECADCDD13DFBECC48C3BCD4E0A0B90 /* YQCooWebView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YQCooWebView-umbrella.h"; sourceTree = "<group>"; };
-		B25B15FFEC67210383411B20FAB8D522 /* YQCooWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YQCooWebViewController.h; path = YQCooWebView/Classes/YQCooWeb/YQCooWebViewController.h; sourceTree = "<group>"; };
-		B55995EC5519F39854FF808F18B39DE2 /* YQCooWebView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YQCooWebView.modulemap; sourceTree = "<group>"; };
-		B8E6D6EABA6BDA0E42E7609640930767 /* YQCooWebView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YQCooWebView-prefix.pch"; sourceTree = "<group>"; };
+		A2E1782ABB14807953DA72AD46AA67FB /* YQCooWebView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YQCooWebView-prefix.pch"; sourceTree = "<group>"; };
+		D46769AFA78B162AF7FE9A91C82BD8D1 /* YQCooWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YQCooWebViewController.h; path = YQCooWebView/Classes/YQCooWeb/YQCooWebViewController.h; sourceTree = "<group>"; };
 		D84CD372BF185D2B091D7AD38E241EE9 /* Pods-YQCooWebView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YQCooWebView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		DEC4A521CE090F2771A9D19D3CDD69A6 /* Pods_YQCooWebView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YQCooWebView_Example.framework; path = "Pods-YQCooWebView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E50A356ACE3260337984D3482CE71619 /* canGoForwardNormal@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "canGoForwardNormal@2x.png"; path = "YQCooWebView/Assets/canGoForwardNormal@2x.png"; sourceTree = "<group>"; };
+		DEE067832B4B989956C7705E33BD9BA1 /* YQCooWebView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YQCooWebView.xcconfig; sourceTree = "<group>"; };
 		E7E25A7DB299DEC2BE8188692148A6A4 /* Pods-YQCooWebView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YQCooWebView_Example-umbrella.h"; sourceTree = "<group>"; };
-		EBE64F125756D98319568C2E3B3122B0 /* canGoForwardSelected@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "canGoForwardSelected@2x.png"; path = "YQCooWebView/Assets/canGoForwardSelected@2x.png"; sourceTree = "<group>"; };
+		E7FFE2CF08A158FBD6DBE12927E6145D /* YQCooWebView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YQCooWebView-umbrella.h"; sourceTree = "<group>"; };
 		EF3D1CBBE6A72B11E0E252B806637601 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF54EDCCD61BAB10F7972BDB8BDE93AF /* Pods-YQCooWebView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YQCooWebView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F0CEC58AD08FB000E8A92C503756FC37 /* goMenu@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "goMenu@2x.png"; path = "YQCooWebView/Assets/goMenu@2x.png"; sourceTree = "<group>"; };
-		FF5E73C5CBB8DE77121238E8AFEA653F /* canGoBackSelected@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "canGoBackSelected@2x.png"; path = "YQCooWebView/Assets/canGoBackSelected@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,32 +123,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2185ED45AB2812032B280B0A7BEEDFAF /* Support Files */ = {
+		244B0E94B4B3382D4953D6C0A6AB73DF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9994D51C06749403730E290DD309AD13 /* Info.plist */,
-				7980A7EB5F1F73F65A4160A139A61570 /* ResourceBundle-YQCooWebView-Info.plist */,
-				B55995EC5519F39854FF808F18B39DE2 /* YQCooWebView.modulemap */,
-				290648694343A90CF4D97449298F8EBA /* YQCooWebView.xcconfig */,
-				90A44F0D068C8EDF4004E740FD0930B1 /* YQCooWebView-dummy.m */,
-				B8E6D6EABA6BDA0E42E7609640930767 /* YQCooWebView-prefix.pch */,
-				A0ECADCDD13DFBECC48C3BCD4E0A0B90 /* YQCooWebView-umbrella.h */,
+				9921670C102A443A90718E6EEFF07D4A /* YQCooWebView.xcassets */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YQCooWebView";
-			sourceTree = "<group>";
-		};
-		22F2467AF1C2350E698349C359A1B5A4 /* YQCooWebView */ = {
-			isa = PBXGroup;
-			children = (
-				B25B15FFEC67210383411B20FAB8D522 /* YQCooWebViewController.h */,
-				22990DDF5DFCC437715F99D7526216AA /* YQCooWebViewController.m */,
-				54A68FD1BF94B02F68D45FB76902900D /* Pod */,
-				7A2CBCC7EC5CE5384794B3FB74EC621A /* Resources */,
-				2185ED45AB2812032B280B0A7BEEDFAF /* Support Files */,
-			);
-			name = YQCooWebView;
-			path = ../..;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		3C9E23F0E61ED7714F4D1E87F43F9E10 /* Pods-YQCooWebView_Tests */ = {
@@ -179,12 +149,12 @@
 			path = "Target Support Files/Pods-YQCooWebView_Tests";
 			sourceTree = "<group>";
 		};
-		54A68FD1BF94B02F68D45FB76902900D /* Pod */ = {
+		41187F512E570B968282353CC9FC56EB /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				6452B3D6AEF8B77F7A9A3E3B5DC11967 /* LICENSE */,
-				7403589586C10EFFCB8090782BF07A98 /* README.md */,
-				3C4525175D1C84686C05C28E6A011115 /* YQCooWebView.podspec */,
+				9D40D737675AC167032AE4EAB0F72250 /* LICENSE */,
+				67C2FFD3EA93CDEC261D186D216EE79A /* README.md */,
+				094DA4314EC9DDBB4D8ED28E6ACF33BF /* YQCooWebView.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -197,19 +167,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7A2CBCC7EC5CE5384794B3FB74EC621A /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				20E7AECA7EFDB260E0D8707548FB82AF /* canGoBackNormal@2x.png */,
-				FF5E73C5CBB8DE77121238E8AFEA653F /* canGoBackSelected@2x.png */,
-				E50A356ACE3260337984D3482CE71619 /* canGoForwardNormal@2x.png */,
-				EBE64F125756D98319568C2E3B3122B0 /* canGoForwardSelected@2x.png */,
-				F0CEC58AD08FB000E8A92C503756FC37 /* goMenu@2x.png */,
-				15FA6DA4761A2058AF98C3825608F3DF /* refreshWeb@2x.png */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -219,6 +176,19 @@
 				9C9A3274AABFB17F6B9E192CC35AF753 /* Products */,
 				ECE584FDAD4B010B0735529E161CB449 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8B346A606565E7A40D9B60A2872DEEB0 /* YQCooWebView */ = {
+			isa = PBXGroup;
+			children = (
+				D46769AFA78B162AF7FE9A91C82BD8D1 /* YQCooWebViewController.h */,
+				480C3FFFA9082A0EA14E6DECF399807B /* YQCooWebViewController.m */,
+				41187F512E570B968282353CC9FC56EB /* Pod */,
+				244B0E94B4B3382D4953D6C0A6AB73DF /* Resources */,
+				CA7E537B7979DE4C7E8058867064F8A4 /* Support Files */,
+			);
+			name = YQCooWebView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		9C9A3274AABFB17F6B9E192CC35AF753 /* Products */ = {
@@ -238,6 +208,21 @@
 				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA7E537B7979DE4C7E8058867064F8A4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				83D529C747738F3AE1BCCA98A6643737 /* Info.plist */,
+				27BD6F00FC35AF0CCBB5EC2D8761D5A6 /* ResourceBundle-YQCooWebView-Info.plist */,
+				88C6E1CF0C0E6646ED72A08D024559D5 /* YQCooWebView.modulemap */,
+				DEE067832B4B989956C7705E33BD9BA1 /* YQCooWebView.xcconfig */,
+				1CA3ED9831E71650ED62D83A4AA1E896 /* YQCooWebView-dummy.m */,
+				A2E1782ABB14807953DA72AD46AA67FB /* YQCooWebView-prefix.pch */,
+				E7FFE2CF08A158FBD6DBE12927E6145D /* YQCooWebView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YQCooWebView";
 			sourceTree = "<group>";
 		};
 		CC683B992F38FB692CB662919E81D6F7 /* Pods-YQCooWebView_Example */ = {
@@ -270,7 +255,7 @@
 		F77046440AC02B81F19CB4340ED256F0 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				22F2467AF1C2350E698349C359A1B5A4 /* YQCooWebView */,
+				8B346A606565E7A40D9B60A2872DEEB0 /* YQCooWebView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -331,7 +316,7 @@
 			buildPhases = (
 				D0FB4D15C7FFA1BF54A58745FEDF5D42 /* Sources */,
 				58ACA94D1B5A57FCE6E02AF36A655199 /* Frameworks */,
-				B1952729ADB03E3E261C8A5EC0F2278A /* Resources */,
+				D04E7E2D70E92EDA3E7FB505BE6C0127 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -416,16 +401,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B1952729ADB03E3E261C8A5EC0F2278A /* Resources */ = {
+		D04E7E2D70E92EDA3E7FB505BE6C0127 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADE91778F58D529B0633683C1E2A6119 /* canGoBackNormal@2x.png in Resources */,
-				695F83C0FBD56348C57715161FC99231 /* canGoBackSelected@2x.png in Resources */,
-				EB3A86C367FB2FB8C9204ED027410B71 /* canGoForwardNormal@2x.png in Resources */,
-				12F29BFE22B6AF6903F861A3DC74568F /* canGoForwardSelected@2x.png in Resources */,
-				526BD54148A6498D9E9ABFD78D4B4F3D /* goMenu@2x.png in Resources */,
-				78118C11D7CBAF71ED469DC26AF18A68 /* refreshWeb@2x.png in Resources */,
+				2DAF283528BD02AE0006DF6CC106B67A /* YQCooWebView.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,7 +470,7 @@
 /* Begin XCBuildConfiguration section */
 		1A186A92A4DD4AA6F28DA2E050B01CE6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 290648694343A90CF4D97449298F8EBA /* YQCooWebView.xcconfig */;
+			baseConfigurationReference = DEE067832B4B989956C7705E33BD9BA1 /* YQCooWebView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -617,7 +597,7 @@
 		};
 		A59F880C96B6EE2F30553F888B966E63 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 290648694343A90CF4D97449298F8EBA /* YQCooWebView.xcconfig */;
+			baseConfigurationReference = DEE067832B4B989956C7705E33BD9BA1 /* YQCooWebView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YQCooWebView";
@@ -633,7 +613,7 @@
 		};
 		AE01AB9446E24D0363AE03C8324F9960 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 290648694343A90CF4D97449298F8EBA /* YQCooWebView.xcconfig */;
+			baseConfigurationReference = DEE067832B4B989956C7705E33BD9BA1 /* YQCooWebView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -822,7 +802,7 @@
 		};
 		FFE3C17ADB953B58E9829270AE7489D5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 290648694343A90CF4D97449298F8EBA /* YQCooWebView.xcconfig */;
+			baseConfigurationReference = DEE067832B4B989956C7705E33BD9BA1 /* YQCooWebView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YQCooWebView";

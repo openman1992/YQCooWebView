@@ -7,6 +7,7 @@
 //
 
 #import "YQCooViewController.h"
+#import "YQCooWebViewController.h"
 
 @interface YQCooViewController ()
 
@@ -18,6 +19,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    UINavigationController *nav = [YQCooWebViewController instanceWithUrl:[NSURL URLWithString:@"http://www.baidu.com"]];
+    nav.toolbarHidden = NO;
+    [UIApplication sharedApplication].delegate.window.rootViewController = nav;
 }
 
 - (void)didReceiveMemoryWarning

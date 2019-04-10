@@ -198,6 +198,13 @@
 
 #pragma private - methods
 
+- (UIImage *)YQCooImageWithName:(NSString *)name {
+    NSBundle *myBundle = [NSBundle bundleForClass:[self class]];
+    NSString *bundlePath = [myBundle pathForResource:@"YQCooWebView" ofType:@"bundle"];
+    NSBundle *bundle = [NSBundle bundleWithPath:bundlePath];
+    return [UIImage imageNamed:name inBundle:bundle compatibleWithTraitCollection:nil];
+}
+
 - (void)setupView {
     [self.view addSubview:self.webView];
     [self.navigationController.navigationBar addSubview:self.progressView];
@@ -249,42 +256,43 @@
 
 - (UIImage *)canBackNormalItemImage {
     if (!_canBackNormalItemImage) {
-        _canBackNormalItemImage = [UIImage imageNamed:@"canGoBackNormal"];
+        _canBackNormalItemImage = [self YQCooImageWithName:@"canGoBackNormal"];
+        
     }
     return _canBackNormalItemImage;
 }
 
 - (UIImage *)canBackSelectedItemImage {
     if (!_canBackSelectedItemImage) {
-        _canBackSelectedItemImage = [UIImage imageNamed:@"canGoBackSelected"];
+        _canBackSelectedItemImage = [self YQCooImageWithName:@"canGoBackSelected"];
     }
     return _canBackSelectedItemImage;
 }
 
 - (UIImage *)canGoForwardNormalItemImage {
     if (!_canGoForwardNormalItemImage) {
-        _canGoForwardNormalItemImage = [UIImage imageNamed:@"canGoForwardNormal"];
+        _canGoForwardNormalItemImage = [self YQCooImageWithName:@"canGoForwardNormal"];
     }
     return _canGoForwardNormalItemImage;
 }
 
 - (UIImage *)canGoForwardSelectedItemImage {
     if (!_canGoForwardSelectedItemImage) {
-        _canGoForwardSelectedItemImage = [UIImage imageNamed:@"canGoForwardSelected"];
+        _canGoForwardSelectedItemImage = [self YQCooImageWithName:@"canGoForwardSelected"];
     }
     return _canGoForwardSelectedItemImage;
 }
 
 - (UIImage *)refreshImage {
     if (!_refreshImage) {
-        _refreshImage = [UIImage imageNamed:@"refreshWeb"];
+        _refreshImage = [self YQCooImageWithName:@"refreshWeb"];
     }
     return _refreshImage;
 }
 
 - (UIImage *)goMenuImage {
     if (!_goMenuImage) {
-        _goMenuImage = [UIImage imageNamed:@"goMenu"];
+        _goMenuImage = [self YQCooImageWithName:@"goMenu"];
     }
     return _goMenuImage;
 }
