@@ -1,6 +1,6 @@
 {
   "name": "YQCooWebView",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "summary": "A short description of YQCooWebView.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/openman1992/YQCooWebView",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/openman1992/YQCooWebView.git",
-    "tag": "0.0.7"
+    "tag": "0.0.8"
   },
   "platforms": {
     "ios": "8.0"
@@ -22,6 +22,11 @@
   "resource_bundles": {
     "YQCooWebView": [
       "YQCooWebView/Assets/**/*"
+    ]
+  },
+  "dependencies": {
+    "JPush": [
+      "3.1.0"
     ]
   }
 }

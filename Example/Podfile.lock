@@ -1,5 +1,5 @@
 PODS:
-  - YQCooWebView (0.0.7)
+  - YQCooWebView (0.0.8)
 
 DEPENDENCIES:
   - YQCooWebView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YQCooWebView: ec3b0474f3ca6a84765ec0c3de4d11fa5a25a4ff
+  YQCooWebView: 4e924e11580c664d0cee23317b0c2fced95c24df
 
 PODFILE CHECKSUM: 7ac91e5d32342dcd064eb1f991c9a7c0604d8339
 
