@@ -22,7 +22,7 @@ pod 'YQCooWebView'
 
 ## Author
 
-openman1992, 23741423@qq.com
+openman1992, 237414238@qq.com
 
 ## License
 
